@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#26352c" />
+<meta name="description" content="翁子晴創作個展《躲貓貓：這個距離剛剛好》線上展覽。23件作品，沿著展牆慢慢發現畫裡的貓。" />
+<title>躲貓貓：這個距離剛剛好｜翁子晴創作個展</title>
+<style>
+:root{--paper:#f1ede4;--paper2:#eae3d7;--ink:#29352e;--deep:#233228;--olive:#647364;--muted:#7b7b70;--line:rgba(46,52,42,.2);--serif:"Noto Serif CJK TC","Noto Serif TC","Songti TC",serif;--sans:"Noto Sans CJK TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;-webkit-font-smoothing:antialiased}button,a{font:inherit}button{cursor:pointer}a{color:inherit}button:focus-visible,a:focus-visible{outline:2px solid #bdab7c;outline-offset:5px}img{max-width:100%}::selection{background:#aeb99e;color:#20352c}
+.site-top{position:absolute;z-index:10;left:0;top:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:30px clamp(24px,5vw,76px);color:#fff;gap:15px}.brand{font-family:var(--serif);font-size:14px;letter-spacing:.21em;line-height:1.65}.brand small{display:block;font-family:var(--sans);font-size:9px;letter-spacing:.3em;opacity:.8}.top-actions{display:flex;align-items:center;gap:24px}.top-actions button{border:0;color:inherit;background:none;letter-spacing:.12em;font-size:12px;padding:8px 0}.top-actions button:hover{text-decoration:underline;text-underline-offset:7px}
+.hero{height:100svh;min-height:660px;position:relative;overflow:hidden;background:#243329;color:#f9f5e8}.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 86%;filter:brightness(.68) saturate(.8);animation:slow-in 1.6s ease-out both}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,34,24,.84) 0%,rgba(20,37,28,.69) 36%,rgba(20,34,26,.25) 73%,rgba(18,32,24,.19)),linear-gradient(0deg,rgba(16,31,21,.52),transparent 25%)}.hero-grain{position:absolute;z-index:1;inset:0;pointer-events:none;opacity:.13;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.6' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}.hero-content{position:relative;z-index:2;max-width:930px;padding:clamp(175px,24vh,245px) clamp(25px,8.4vw,150px) 130px}.eyebrow{display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:.27em;font-weight:400}.eyebrow:before{content:"";height:1px;width:30px;background:currentColor;opacity:.6}.hero .eyebrow{color:#dedacb}.hero-title{font-family:var(--serif);font-weight:500;font-size:clamp(64px,9vw,136px);line-height:1.16;letter-spacing:.17em;margin:36px 0 0;white-space:nowrap}.hero-sub{font-family:var(--serif);font-size:clamp(22px,3vw,43px);letter-spacing:.3em;margin:10px 0 25px;white-space:nowrap}.hero-en{font-family:Georgia,serif;font-size:clamp(11px,1.05vw,14px);letter-spacing:.27em;line-height:2.15;color:#ded8c9}.hero-rule{height:1px;background:rgba(255,255,255,.5);max-width:50px;margin:34px 0}.hero-description{font-family:var(--serif);font-size:15px;letter-spacing:.13em;line-height:2.4;color:#ede7d9}.outline-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:48px;min-width:220px;padding:18px 21px;border:1px solid rgba(255,255,255,.75);color:#f8f5ed;background:rgba(255,255,255,.07);margin-top:30px;font-size:12px;letter-spacing:.22em;transition:background .2s,color .2s}.outline-btn:hover{background:#eee8db;color:#29352e}.hero-bottom{position:absolute;z-index:3;bottom:38px;left:clamp(25px,8.4vw,150px);right:clamp(25px,5vw,76px);display:flex;align-items:end;justify-content:space-between;gap:10px;color:#e5e0d2;font-family:Georgia,serif;font-size:11px;letter-spacing:.18em}.scroll-cue{display:flex;align-items:center;gap:14px}.scroll-cue:after{content:"";display:block;height:45px;width:1px;background:#e6e0d2;opacity:.75}
+@keyframes slow-in{from{transform:scale(1.07);opacity:.75}to{transform:scale(1);opacity:1}}
+.intro{display:grid;grid-template-columns:.65fr 1fr;gap:8vw;align-items:center;padding:clamp(80px,10vw,160px) clamp(25px,9vw,160px);background:#f3efe7;min-height:500px}.intro-label{font-family:Georgia,serif;font-size:11px;letter-spacing:.23em;color:#687268}.intro h2{font-family:var(--serif);font-size:clamp(34px,4.5vw,62px);line-height:1.55;letter-spacing:.12em;font-weight:400;margin:26px 0}.intro-copy{font-family:var(--serif);font-size:clamp(14px,1.15vw,17px);line-height:2.55;letter-spacing:.07em;color:#535c53;max-width:640px}.intro-aside{display:flex;gap:25px;margin-top:35px;padding-top:24px;border-top:1px solid var(--line);font-family:Georgia,serif;font-size:12px;letter-spacing:.1em;color:#7b8074}.intro-aside strong{color:#334538;font-weight:400}
+.gallery-section{position:relative;background:#d7c9b2}.gallery-head{position:absolute;z-index:5;top:28px;left:clamp(20px,5vw,76px);right:clamp(20px,5vw,76px);display:flex;align-items:center;justify-content:space-between;color:#504b40;pointer-events:none}.gallery-head>div{display:flex;align-items:center;gap:15px}.gallery-kicker{font-family:Georgia,serif;font-size:11px;letter-spacing:.23em}.gallery-head h2{font-family:var(--serif);font-size:17px;letter-spacing:.17em;font-weight:400;margin:0}.gallery-number{font-family:Georgia,serif;font-size:12px;letter-spacing:.12em;font-variant-numeric:tabular-nums}.gallery-number strong{font-weight:400;font-size:21px;color:#30382f}.gallery-viewport{height:clamp(610px,88svh,930px);position:relative;overflow:hidden;background:radial-gradient(ellipse 17% 52% at 20% 28%,rgba(255,250,237,.42),transparent 80%),radial-gradient(ellipse 17% 52% at 59% 28%,rgba(255,250,237,.28),transparent 80%),linear-gradient(90deg,#d5c8b4,#e0d3c0 26%,#d9cdbb 58%,#dfd2bf);}
+.gallery-viewport:before{content:"";position:absolute;inset:0 0 13.3%;z-index:0;pointer-events:none;opacity:.21;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.52' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.38'/%3E%3C/svg%3E")}.gallery-viewport:after{content:"";position:absolute;left:0;right:0;bottom:13.2%;height:9px;z-index:1;background:linear-gradient(#bdb19d 0 1px,#e6dac8 2px,#b8aa96 5px,#c9bda8 8px);box-shadow:0 2px 5px rgba(43,36,27,.2)}.floor{position:absolute;z-index:0;bottom:0;left:0;right:0;height:13.2%;background:linear-gradient(#bdb2a2,#b9ac9b 24%,#a99e90);border-top:1px solid #968b7d}.floor:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 0 33%,rgba(105,92,75,.09) 33.1% 33.2%,transparent 33.3% 66%,rgba(105,92,75,.08) 66.1% 66.2%,transparent 66.3%)}
+.gallery-track{position:absolute;z-index:2;top:83px;bottom:13.4%;left:0;right:0;display:flex;align-items:center;gap:clamp(58px,6.5vw,128px);padding:0 clamp(90px,18vw,350px);overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;cursor:grab;touch-action:auto;user-select:none}.gallery-track::-webkit-scrollbar{display:none}.gallery-track.dragging{cursor:grabbing;scroll-behavior:auto}.wall-piece{flex:0 0 auto;display:flex;align-items:center;justify-content:center;position:relative;min-width:0;padding:18px 0 26px;transition:transform .28s ease}.wall-piece:hover{transform:translateY(-3px)}.wall-piece:before{content:"";position:absolute;top:-5%;bottom:0;left:-20%;right:-20%;background:radial-gradient(ellipse at center,rgba(255,249,226,.22),transparent 67%);pointer-events:none}.artwork-button{position:relative;border:0;padding:0;background:transparent;display:block;transform:translateZ(0)}.artwork-button:after{content:"觀看作品 ↗";position:absolute;bottom:-41px;left:50%;transform:translate(-50%,6px);white-space:nowrap;font-size:11px;letter-spacing:.13em;color:#3c4239;opacity:0;transition:opacity .2s,transform .2s}.artwork-button:hover:after,.artwork-button:focus-visible:after{opacity:1;transform:translate(-50%,0)}.art-frame{position:relative;display:block;background:#392d23;padding:5px;border:2px solid #43372a;box-shadow:0 2px 0 #877866,0 4px 0 #a2927c,0 11px 18px rgba(39,29,19,.33),3px 8px 18px rgba(39,29,19,.16);transition:box-shadow .25s}.art-frame:before{content:"";position:absolute;inset:2px;box-shadow:inset 0 0 0 1px rgba(222,196,151,.45);pointer-events:none;z-index:1}.art-frame img{display:block;width:auto;max-width:none;height:var(--desktop-height);max-height:min(52svh,480px);aspect-ratio:var(--ratio);object-fit:fill;pointer-events:none}.wall-piece.round .art-frame{padding:3px;border-radius:50%;overflow:hidden;background:#615344;box-shadow:0 2px 0 #81715e,0 9px 16px rgba(39,29,19,.27)}.wall-piece.round .art-frame:before{border-radius:50%}.wall-piece.round .art-frame img{border-radius:50%}
+.gallery-overlay{position:absolute;z-index:5;bottom:20px;left:clamp(20px,5vw,76px);right:clamp(20px,5vw,76px);display:flex;justify-content:space-between;align-items:center;gap:15px;color:#383a34}.gallery-hint{font-size:11px;letter-spacing:.14em}.gallery-controls{display:flex;gap:9px;align-items:center}.gallery-controls button{height:39px;width:49px;border:1px solid rgba(57,54,46,.4);background:rgba(240,232,218,.55);color:#33382e;transition:background .2s}.gallery-controls button:hover{background:#f0e8da}.progress-line{height:1px;background:rgba(60,57,49,.24);width:clamp(85px,13vw,210px);position:relative;margin-right:15px}.progress-fill{position:absolute;left:0;top:0;bottom:0;background:#454e42;width:0;transition:width .2s}
+.after-gallery{background:#f4efe7;padding:clamp(65px,8vw,130px) clamp(22px,8vw,135px)}.section-label{font-size:10px;letter-spacing:.25em;color:#778174;font-family:Georgia,serif}.section-title{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4vw,56px);letter-spacing:.13em;margin:18px 0 15px}.section-desc{font-size:13px;color:#74786d;letter-spacing:.07em;line-height:2}.index-tools{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:38px 0 25px;border-top:1px solid var(--line);padding-top:25px}.index-count{font-family:Georgia,serif;font-size:12px;color:#687267;letter-spacing:.14em}.filter-switch{display:flex;gap:10px}.filter-switch button{background:transparent;border:1px solid #b6b5a8;padding:10px 15px;font-size:11px;letter-spacing:.12em;color:#5a6558}.filter-switch button.active{background:#334438;border-color:#334438;color:#fff}.index-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 26px}.index-card{border:0;background:transparent;padding:0;text-align:left;display:block;width:100%;color:var(--ink)}.index-image{display:flex;align-items:center;justify-content:center;height:clamp(180px,22vw,300px);background:#e7dfd2;overflow:hidden;padding:22px;transition:background .2s}.index-card:hover .index-image{background:#dcd2c2}.index-image img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;box-shadow:0 6px 14px rgba(31,35,26,.17);transition:transform .3s}.index-image img.round-image{border-radius:50%}.index-card:hover img{transform:scale(1.035)}.index-no{font-family:Georgia,serif;color:#8b9084;font-size:10px;letter-spacing:.1em;margin:17px 0 6px}.index-name{font-family:var(--serif);font-size:17px;letter-spacing:.1em;line-height:1.7}.index-meta{font-family:Georgia,serif;font-size:11px;color:#8b8d82;letter-spacing:.08em;margin-top:6px}.empty-favs{grid-column:1/-1;padding:60px 20px;text-align:center;color:#6d7568;font-size:13px;line-height:2.5}
+.ending{min-height:390px;padding:100px 25px;background:#27392d;color:#f1ede4;text-align:center}.ending h2{font-family:var(--serif);font-size:clamp(29px,4vw,50px);font-weight:400;letter-spacing:.2em;margin:20px 0}.ending p{font-family:var(--serif);font-size:13px;letter-spacing:.13em;line-height:2.3;color:#d7d8cc}.ending button{margin-top:24px;border:1px solid #c4c8b9;background:transparent;color:#e7e7dc;padding:15px 35px;font-size:12px;letter-spacing:.17em}.ending button:hover{background:#e8e5d8;color:#27392d}.footer{background:#1f2e25;color:#c9d0c3;padding:25px clamp(22px,6vw,90px);display:flex;justify-content:space-between;gap:20px;font-size:10px;letter-spacing:.12em}
+/* Full-page artwork detail */
+.detail{position:fixed;inset:0;z-index:40;overflow:auto;overscroll-behavior:contain;background:#f2eee6;color:#2c3b31;display:none}.detail.open{display:block}.detail-top{height:76px;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:0 clamp(20px,4vw,65px);border-bottom:1px solid rgba(54,61,49,.14);background:rgba(244,240,231,.95);position:sticky;top:0;z-index:5;backdrop-filter:blur(10px)}.detail-back,.detail-next{border:0;background:transparent;color:#3b483c;font-size:12px;letter-spacing:.13em;padding:12px 0}.detail-back:hover,.detail-next:hover{text-decoration:underline;text-underline-offset:6px}.detail-counter{font-family:Georgia,serif;letter-spacing:.2em;font-size:12px;color:#828477}.detail-main{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);min-height:calc(100svh - 76px)}.detail-art-zone{position:relative;background:#e4d9c9;display:flex;align-items:center;justify-content:center;padding:clamp(28px,5vw,80px);min-height:calc(100svh - 76px);overflow:hidden}.detail-art-zone:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,#f1e9db,transparent 70%);opacity:.8;pointer-events:none}.detail-art{position:relative;max-width:100%;max-height:75svh;width:auto;height:auto;object-fit:contain;box-shadow:0 11px 29px rgba(31,30,24,.25)}.detail-art.round-image{border-radius:50%}.zoom-cta{position:absolute;bottom:25px;right:28px;border:1px solid rgba(44,51,42,.32);background:rgba(242,238,230,.9);padding:12px 15px;color:#334438;font-size:12px;letter-spacing:.08em}.detail-info{padding:clamp(45px,6vw,100px) clamp(27px,5vw,85px);display:flex;flex-direction:column}.detail-small{font-family:Georgia,serif;font-size:11px;letter-spacing:.22em;color:#7b8276}.detail-title{font-family:var(--serif);font-size:clamp(32px,3.5vw,55px);font-weight:400;letter-spacing:.13em;line-height:1.45;margin:30px 0 12px}.detail-en{font-family:Georgia,serif;color:#7b8075;font-size:14px;letter-spacing:.08em;line-height:1.8;min-height:24px}.detail-rule{width:50px;height:1px;background:#9c9e8e;margin:33px 0}.detail-facts{display:grid;grid-template-columns:90px 1fr;gap:16px 12px;font-size:13px;letter-spacing:.08em;line-height:1.8}.detail-facts dt{color:#899084}.detail-facts dd{margin:0;color:#3e493e}.detail-tabs{display:flex;border-bottom:1px solid #c8c9bb;margin-top:55px;gap:28px}.detail-tabs button{background:none;border:0;border-bottom:2px solid transparent;color:#82897d;padding:0 0 14px;font-size:12px;letter-spacing:.12em}.detail-tabs button.active{border-color:#465747;color:#2e3d30}.detail-tab-content{font-family:var(--serif);color:#626c61;font-size:14px;line-height:2.3;letter-spacing:.04em;min-height:140px;padding:24px 0}.pending-note{font-family:var(--sans);font-size:11px;color:#92978d;letter-spacing:.05em;display:block;margin-top:18px}.detail-bottom{margin-top:auto;padding-top:35px;display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid #c7c8b9}.save-button{border:1px solid #9da899;background:transparent;color:#455546;padding:12px 18px;font-size:12px;letter-spacing:.08em}.save-button.saved{background:#344637;color:#fff}.detail-bottom .detail-next{font-size:12px}
+.lightbox{position:fixed;inset:0;z-index:60;background:rgba(19,23,19,.96);display:none;flex-direction:column}.lightbox.open{display:flex}.lightbox-toolbar{height:65px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;color:#eeeae0;font-size:12px;letter-spacing:.12em}.lightbox-toolbar button{border:1px solid #8c9488;background:transparent;color:#fff;padding:9px 13px;font-size:12px}.lightbox-controls{display:flex;gap:9px}.lightbox-stage{flex:1;overflow:hidden;display:flex;align-items:center;justify-content:center;cursor:grab;touch-action:none}.lightbox-stage:active{cursor:grabbing}.lightbox-image{max-width:90vw;max-height:calc(100svh - 105px);object-fit:contain;transform-origin:center;will-change:transform;user-select:none;pointer-events:none}.lightbox-image.round-image{border-radius:50%}.lightbox-tip{color:#b9c1b3;text-align:center;font-size:10px;letter-spacing:.1em;padding:12px}
+@media (max-width:950px){.index-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.detail-main{grid-template-columns:1fr 1fr}.detail-info{padding:45px 32px}.detail-art-zone{padding:32px}.detail-tabs{gap:18px}}
+@media (max-width:700px){.site-top{padding:20px 22px}.brand{font-size:11px}.brand small{font-size:8px}.top-actions{gap:15px}.top-actions button{font-size:10px}.hero{min-height:610px}.hero-image{object-position:75% 50%;filter:brightness(.72) saturate(.85)}.hero:after{background:linear-gradient(90deg,rgba(18,34,24,.78),rgba(18,34,24,.3)),linear-gradient(0deg,rgba(17,32,23,.65),transparent 50%)}.hero-content{padding:clamp(190px,28vh,280px) 25px 110px}.hero-title{font-size:clamp(52px,12vw,79px);letter-spacing:.11em;margin-top:25px}.hero-sub{font-size:clamp(19px,5vw,27px);letter-spacing:.19em;margin-top:13px}.hero-en{font-size:10px;letter-spacing:.15em}.hero-description{font-size:13px}.hero-rule{margin:23px 0}.outline-btn{margin-top:15px}.hero-bottom{left:25px;right:25px;bottom:24px;font-size:9px}.intro{display:block;padding:80px 30px}.intro h2{font-size:34px}.intro-copy{font-size:14px}.intro-aside{gap:15px;font-size:10px;flex-wrap:wrap}.gallery-viewport{height:80svh;min-height:550px;max-height:850px}.gallery-head{top:24px;left:23px;right:23px}.gallery-head h2{font-size:13px}.gallery-kicker{display:none}.gallery-number strong{font-size:17px}.gallery-track{top:70px;bottom:12.5%;padding:0 12vw;gap:clamp(38px,9vw,75px)}.art-frame{padding:4px}.art-frame img{height:var(--mobile-height);max-height:49svh}.gallery-viewport:after{bottom:12.3%}.floor{height:12.3%}.gallery-overlay{left:20px;right:20px;bottom:18px}.gallery-hint{font-size:10px;max-width:160px;line-height:1.7}.gallery-controls button{width:41px;height:38px}.progress-line{width:55px;margin-right:5px}.after-gallery{padding:70px 22px}.index-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 13px}.index-image{height:210px;padding:12px}.index-name{font-size:14px}.index-meta{font-size:10px}.index-tools{flex-wrap:wrap}.detail-top{height:60px;padding:0 18px}.detail-back,.detail-next{font-size:11px}.detail-main{display:block}.detail-art-zone{min-height:0;height:min(58svh,550px);padding:30px 25px 52px}.detail-art{max-height:43svh}.zoom-cta{bottom:15px;right:17px;font-size:11px}.detail-info{padding:36px 27px 50px}.detail-title{font-size:36px;margin-top:18px}.detail-rule{margin:23px 0}.detail-tabs{margin-top:40px}.detail-tab-content{min-height:100px}.footer{font-size:9px;flex-wrap:wrap}.lightbox-tip{font-size:9px}}
+@media(max-width:390px){.top-actions{gap:10px}.hero-title{font-size:48px}.hero-sub{font-size:18px}.index-image{height:170px}.gallery-hint{max-width:115px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-image{animation:none}*,*:before,*:after{transition:none!important}}
+
+/* 23 works: two rows per horizontally scrollable wall column. */
+.gallery-viewport{height:clamp(680px,93svh,1000px)}
+.gallery-track{gap:clamp(44px,5vw,88px);align-items:stretch;padding-left:clamp(80px,15vw,250px);padding-right:clamp(80px,15vw,250px)}
+.wall-column{display:grid;grid-template-rows:1fr 1fr;justify-items:center;align-items:center;gap:18px;flex:0 0 auto;min-width:160px;height:100%;padding:9px 0 25px}
+.wall-column .wall-piece{flex:initial;max-height:100%;padding:0 8px;align-self:center}
+.wall-column .art-frame img{height:var(--desktop-height);max-height:min(30svh,245px);object-fit:contain;aspect-ratio:auto}
+.wall-column .artwork-button:after{bottom:-26px}
+.wall-column .wall-piece:before{left:-7%;right:-7%}
+.wall-piece.round .art-frame,.wall-piece.half .art-frame{border:0;padding:0;background:transparent;box-shadow:none;overflow:visible}
+.wall-piece.round .art-frame:before,.wall-piece.half .art-frame:before{display:none}
+.wall-piece.round .art-frame img,.wall-piece.half .art-frame img{filter:drop-shadow(0 8px 7px rgba(39,29,19,.25));border-radius:0}
+.index-image img.round-image,.detail-art.round-image,.lightbox-image.round-image{border-radius:0}
+.tab-copy{white-space:pre-line}
+.artist-section{padding:clamp(75px,9vw,135px) clamp(25px,8vw,135px);background:#eae5dc;color:#2b3a30}
+.artist-top{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(190px,.85fr) minmax(210px,.85fr);gap:clamp(25px,3.2vw,55px);align-items:start}
+.artist-section .section-title{margin:20px 0 26px}
+.artist-english{display:block;font-family:Georgia,serif;font-size:clamp(14px,1.4vw,18px);font-weight:400;letter-spacing:.13em;margin-top:8px;color:#657368}
+.artist-bio,.statement-copy{font-family:var(--serif);font-size:14px;line-height:2.2;letter-spacing:.045em;color:#4c594e}
+.artist-portrait{margin:18px 0 0;min-width:0}.artist-portrait img{display:block;width:100%;height:auto;max-height:455px;object-fit:cover;object-position:center top;filter:saturate(.95)}.artist-portrait figcaption{font-family:Georgia,serif;font-size:10px;letter-spacing:.13em;color:#7b8378;padding-top:13px}.artist-resume{padding-top:26px}
+.artist-resume h3{font-family:var(--serif);font-weight:500;font-size:17px;letter-spacing:.07em;margin:8px 0 18px}
+.artist-resume h3:not(:first-child){margin-top:34px}
+.artist-resume h3 span{font-family:Georgia,serif;font-weight:400;font-size:11px;color:#7b8378;letter-spacing:.1em;margin-left:8px}
+.artist-resume p{font-size:12px;line-height:2;letter-spacing:.04em;color:#5b645b;margin:8px 0}
+.artist-statements{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:58px}
+.artist-statements details{border-top:1px solid rgba(42,59,47,.25);border-bottom:1px solid rgba(42,59,47,.25)}
+.artist-statements summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:15px;padding:22px 2px;font-family:var(--serif);font-size:17px;letter-spacing:.1em}
+.artist-statements summary::-webkit-details-marker{display:none}
+.artist-statements summary span{font-family:Georgia,serif;font-size:11px;color:#8a9186;letter-spacing:.13em}
+.artist-statements summary b{font-family:var(--sans);font-weight:300;font-size:22px;margin-left:auto}
+.artist-statements details[open] summary b{transform:rotate(45deg)}
+.statement-copy{padding:0 4px 22px;font-size:13px}
+.statement-copy p{margin:0 0 16px}
+.artist-link{display:inline-block;margin-top:25px;text-decoration:none;font-size:12px;letter-spacing:.1em;border-bottom:1px solid #7d8a7e;padding-bottom:7px}
+@media(max-width:700px){
+ .gallery-viewport{height:80svh;min-height:600px;max-height:820px}
+ .gallery-track{gap:30px;padding:0 11vw;top:70px;bottom:12.5%}
+ .wall-column{min-width:115px;gap:12px;padding:5px 0 20px}
+ .wall-column .wall-piece{padding:0 4px}
+ .wall-column .art-frame img{height:var(--mobile-height);max-height:27svh}
+ .wall-column .artwork-button:after{bottom:-19px;font-size:9px}
+ .artist-section{padding:75px 28px}
+ .artist-top,.artist-statements{display:block}
+ .artist-portrait{margin:30px auto 15px;max-width:320px}
+ .artist-portrait img{max-height:none}
+ .artist-portrait figcaption{text-align:center}
+ .artist-resume{margin-top:30px;padding-top:25px;border-top:1px solid rgba(42,59,47,.18)}
+ .artist-statements{margin-top:42px}
+ .artist-statements details+details{margin-top:15px}
+ .artist-bio{font-size:13px}
+}
+
+
+
+/* Horizontal exhibition walk · 23 pieces, two levels, phone-first. */
+.gallery-section{background:#d7c9b2}
+.gallery-viewport{height:clamp(670px,91svh,940px);min-height:670px;max-height:none;overflow:hidden;padding:0;position:relative}
+.gallery-viewport:before{inset:0 0 13.3%}
+.gallery-viewport:after{bottom:13.2%}
+.gallery-head{position:absolute;top:26px;left:clamp(20px,5vw,76px);right:clamp(20px,5vw,76px);display:flex;align-items:center;justify-content:space-between;gap:12px;pointer-events:none}
+.gallery-head>div{display:flex;align-items:center;gap:15px}
+.gallery-number{white-space:nowrap}
+.gallery-track{position:absolute;z-index:2;top:82px;bottom:13.4%;left:0;right:0;display:flex;align-items:stretch;justify-content:flex-start;gap:clamp(42px,5.5vw,88px);padding:0 clamp(65px,13vw,220px);overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;cursor:grab;touch-action:pan-x pan-y;user-select:none}
+.gallery-track::-webkit-scrollbar{display:none}
+.gallery-track.dragging{cursor:grabbing}
+.wall-column{display:grid;grid-template-rows:repeat(2,minmax(0,1fr));align-items:stretch;justify-items:center;gap:12px;flex:0 0 auto;min-width:185px;width:max-content;max-width:380px;height:100%;padding:8px 0 24px}
+.wall-piece{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;min-height:0;max-height:100%;width:100%;padding:0 7px;flex:initial}
+.wall-piece:hover{transform:translateY(-2px)}
+.wall-piece:before{left:0;right:0;top:0;bottom:0}
+.artwork-button{display:flex;align-items:center;justify-content:center;flex:1 1 auto;min-height:0;width:100%;padding:0;cursor:pointer}
+.artwork-button:after{content:"放大欣賞 ↗";bottom:-6px;font-size:10px}
+.art-frame{flex:0 0 auto;max-width:100%;width:max-content;height:max-content}
+.wall-piece .art-frame img{display:block;width:auto;height:var(--desktop-height);max-height:min(30svh,242px);max-width:min(350px,34vw);aspect-ratio:auto;object-fit:contain}
+.wall-piece.round .art-frame,.wall-piece.half .art-frame,.wall-piece.special-shape .art-frame{padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;border-radius:0!important;overflow:visible!important}
+.wall-piece.round .art-frame:before,.wall-piece.half .art-frame:before,.wall-piece.special-shape .art-frame:before{display:none!important}
+.wall-piece.round .art-frame img,.wall-piece.half .art-frame img,.wall-piece.special-shape .art-frame img{border-radius:0!important;filter:drop-shadow(0 7px 7px rgba(39,29,19,.23))}
+.wall-label{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;color:#514e42;max-width:100%;flex:0 0 auto;min-height:32px}
+.wall-label span{font-family:Georgia,serif;font-size:9px;letter-spacing:.13em;color:#807766}
+.wall-label strong{font-family:var(--serif);font-weight:400;font-size:12px;line-height:1.45;letter-spacing:.03em}
+.gallery-overlay{bottom:19px;align-items:center}
+.gallery-hint{font-family:var(--serif);font-size:11px;letter-spacing:.1em}
+.gallery-controls{flex-shrink:0}
+.index-image img.shape-image,.detail-art.shape-image,.lightbox-image.shape-image{border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 6px 10px rgba(35,31,26,.18))}
+.detail-concept{border-top:1px solid #c8c9bb;margin-top:42px;padding-top:23px}
+.detail-concept[hidden]{display:none!important}
+.detail-concept h3{font-family:var(--serif);font-weight:500;color:#465747;font-size:15px;letter-spacing:.12em;margin:0 0 17px}
+.detail-concept h3 span{font-family:Georgia,serif;font-weight:400;font-size:10px;letter-spacing:.12em;color:#909589;margin-left:12px}
+.detail-concept-copy{white-space:pre-line;font-family:var(--serif);color:#626c61;font-size:14px;line-height:2.3;letter-spacing:.04em}
+@media(max-width:700px){
+ .hero{height:auto;min-height:100svh;overflow:hidden}
+ .hero-content{padding:clamp(165px,23svh,230px) 25px calc(165px + env(safe-area-inset-bottom))}
+ .hero-bottom{left:25px;right:25px;bottom:calc(25px + env(safe-area-inset-bottom));font-size:9px;gap:18px;align-items:end}
+ .hero-bottom span:first-child{line-height:1.6;max-width:48%}
+ .scroll-cue{font-size:9px;letter-spacing:.1em;white-space:nowrap;gap:9px}
+ .scroll-cue:after{height:36px}
+ .gallery-viewport{height:clamp(600px,80svh,780px);min-height:600px;max-height:780px}
+ .gallery-head{top:22px;left:21px;right:21px}
+ .gallery-head>div{display:block}
+ .gallery-kicker{display:block;font-size:9px;margin-bottom:6px}
+ .gallery-head h2{font-size:13px;letter-spacing:.08em}
+ .gallery-number{font-size:10px}
+ .gallery-number strong{font-size:19px}
+ .gallery-track{top:88px;bottom:12.8%;gap:32px;padding:0 28px;touch-action:pan-x pan-y}
+ .wall-column{gap:8px;min-width:145px;max-width:275px;padding:7px 0 19px}
+ .wall-piece{padding:0 4px;gap:5px}
+ .wall-piece .art-frame img{height:var(--mobile-height);max-height:min(26svh,178px);max-width:265px}
+ .art-frame{padding:3px}
+ .wall-label{min-height:28px;gap:3px}
+ .wall-label span{font-size:8px}
+ .wall-label strong{font-size:10px;max-width:245px}
+ .artwork-button:after{display:none}
+ .gallery-overlay{left:19px;right:19px;bottom:16px;gap:9px}
+ .gallery-hint{font-size:10px;max-width:155px;line-height:1.6}
+ .gallery-controls button{width:39px;height:37px}
+ .progress-line{width:40px;margin-right:4px}
+ .detail-concept{margin-top:30px}
+ .detail-concept-copy{font-size:13px}
+}
+@media(max-width:360px){
+ .hero-content{padding-top:165px;padding-bottom:175px}
+ .hero-bottom{left:21px;right:21px}
+ .scroll-cue{font-size:8px;letter-spacing:.05em}
+ .gallery-track{padding:0 19px;gap:25px}
+ .gallery-hint{font-size:9px;max-width:130px}
+ .progress-line{width:28px}
+}
+
+</style>
+</head>
+<body>
+<header class="site-top"><div class="brand">WENG TZU-CHING<small>SOLO EXHIBITION · 2026</small></div><nav class="top-actions" aria-label="網站導覽"><button id="navGallery">走進展廊 ↗</button><button id="navIndex">作品索引</button></nav></header>
+<main>
+<section class="hero" id="home" aria-label="展覽首頁">
+<img class="hero-image" id="heroImage" alt="《他只是經過》畫作中的綠葉與貓咪" />
+<div class="hero-grain"></div>
+<div class="hero-content"><div class="eyebrow">翁子晴創作個展</div><h1 class="hero-title">躲貓貓</h1><div class="hero-sub">這個距離剛剛好</div><div class="hero-en">HIDE AND SEEK<br>THE DISTANCE FEELS JUST RIGHT</div><div class="hero-rule"></div><p class="hero-description">在你發現牠之前，<br>牠或許已經先看見你了。</p><button class="outline-btn" id="heroEnter"><span>走進展廊</span><span aria-hidden="true">→</span></button></div>
+<div class="hero-bottom"><span>AN ONLINE EXHIBITION<br>2026</span><span class="scroll-cue">SCROLL TO EXPLORE</span></div>
+</section>
+<section class="intro" id="about"><div><div class="intro-label">ABOUT THE EXHIBITION · 展覽介紹</div><h2>有些距離，<br>剛剛好。</h2></div><div><p class="intro-copy">日常裡，貓咪總是悄悄出現，也悄悄躲藏。<br>有時是葉片後的一雙眼睛，有時是光影裡一條尾巴。<br><br>這座線上展廊邀請你放慢一點，在觀看與被觀看之間，尋找那些不經意的相遇。</p><div class="intro-aside"><span>藝術家 <strong>翁子晴</strong></span><span>媒材 <strong>油畫</strong></span><span>展覽形式 <strong>線上觀展</strong></span></div><a class="artist-link" href="#artist">關於藝術家與創作理念 ↗</a></div></section>
+<section class="gallery-section" id="gallery" aria-label="橫向滑動展廊">
+ <div class="gallery-viewport">
+  <div class="gallery-head"><div><span class="gallery-kicker">EXHIBITION HALL</span><h2>展廊 · 沿著牆慢慢走</h2></div><div class="gallery-number"><strong id="galleryCurrent">01</strong> / <span id="galleryTotal">23</span></div></div>
+  <div class="floor" aria-hidden="true"></div>
+  <div class="gallery-track" id="galleryTrack" tabindex="0" aria-label="向右滑動或使用左右方向鍵欣賞全部作品"></div>
+  <div class="gallery-overlay"><div class="gallery-hint">← 左右滑動，慢慢看每一幅畫</div><div class="gallery-controls"><div class="progress-line" aria-hidden="true"><div class="progress-fill" id="galleryProgress"></div></div><button id="galleryPrev" aria-label="向左移動展牆">←</button><button id="galleryNext" aria-label="向右移動展牆">→</button></div></div>
+ </div>
+</section>
+<section class="after-gallery" id="index"><div class="section-label">THE COLLECTION · 作品索引</div><h2 class="section-title">每一幅畫，<br>都藏著一個瞬間。</h2><p class="section-desc">點開作品，近一點看。也可以收藏讓你想再停留的那一幅。</p><div class="index-tools"><div class="index-count" id="indexCount">23 WORKS ON VIEW</div><div class="filter-switch"><button id="filterAll" class="active">全部作品</button><button id="filterSaved">♡ 我的收藏 <span id="favCount"></span></button></div></div><div class="index-grid" id="indexGrid"></div></section>
+<section class="artist-section" id="artist" aria-label="關於藝術家">
+ <div class="artist-top"><div><div class="section-label">ABOUT THE ARTIST · 關於藝術家</div><h2 class="section-title">翁子晴<span class="artist-english">Weng, Tzu-Ching</span></h2><p class="artist-bio">2000年生於桃園，現就讀於國立臺南大學視覺藝術與設計學系碩士班。以油畫為主要創作媒材，作品多以貓咪為主角，透過日常生活中的光影、植物與空間安排，探索觀看行為及人際關係中微妙的距離感。創作關注的不僅是貓咪本身的形象，更著重牠們與周圍環境所形成的關係，藉由遮擋、留白與視線的安排，呈現介於靠近與疏離之間的狀態。</p></div>
+ <figure class="artist-portrait"><img src="assets/artist-portrait.webp" alt="藝術家翁子晴與貓咪的合照" loading="lazy" decoding="async"><figcaption>翁子晴 · Weng, Tzu-Ching</figcaption></figure>
+ <div class="artist-resume"><h3>展覽經歷 <span>Selected Exhibitions</span></h3><p>2026　《躲貓貓：這個距離剛剛好》翁子晴創作個展，國立臺南大學</p><p>2026　ART TAIPEI 2026 台北國際藝術博覽會，王源林美術館展位</p><p>2026　《落籍在遷徙之間》，臺南市北區成功路238巷7號</p><h3>獲獎經歷 <span>Awards</span></h3><p>2026　王源林美術獎｜優選</p></div></div>
+ <div class="artist-statements">
+ <details><summary>創作理念 <span>Artist Statement</span><b>＋</b></summary><div class="statement-copy"><p>我的創作以生活中的貓咪為主要對象，從牠們日常的姿態、眼神與行為出發，逐漸延伸至對人際關係的觀察與思考。貓咪對環境的反應十分細膩。牠們有時主動靠近，有時保持距離，也可能躲在某個角落，安靜地觀察周圍的一切。</p><p>這些看似平凡的行為，讓我聯想到人與人相處時的狀態。我們同樣會因為不同的關係與情境，選擇靠近、迴避，或暫時停留在一個能夠安心觀看的位置。</p><p>在畫面中，我經常運用植物、窗影及空間中的遮擋關係，讓貓咪的身影不完全顯露。這些元素不只是構圖的一部分，也形成觀看時的阻隔與層次。觀者可能正在尋找貓咪，也可能在某個瞬間與牠的視線相遇，而觀看與被觀看的角色，也隨之產生變化。</p><p>除了具象的描繪，我也嘗試透過光線與箔材的反射特性，讓畫面隨著觀看位置及環境光線產生細微變化，使原本固定的圖像多了一層不確定性與體驗感。</p><p>對我而言，貓咪並非用來直接對應某一種人物或情緒，而是一個能夠承載不同感受的存在。我希望作品不只停留在對貓咪形象的欣賞，也能讓觀者從自己的生活經驗出發，在畫面中找到不同的理解與感受。</p></div></details>
+ <details><summary>展覽理念 <span>Exhibition Statement</span><b>＋</b></summary><div class="statement-copy"><p>「躲貓貓」是一場關於尋找與被發現的遊戲。當我們試著尋找藏起來的對象時，也可能在不經意間，成為另一道目光注視的對象。</p><p>本次展覽以貓咪在日常空間中的不同姿態為起點，呈現牠們躲藏、觀望、靠近或短暫停留的瞬間。有些貓咪隱身於植物與陰影之間，有些則直接望向畫面之外。牠們並不總是處於畫面的中心，卻經常在被發現的那一刻，改變我們觀看整個空間的方式。</p><p>展覽名中的「這個距離剛剛好」，來自對人際關係的思考。每個人對親近與疏離都有不同的感受，有時希望被理解，有時卻也需要保留自己的空間。距離並沒有固定的標準，而是在一次次互動與試探中逐漸形成。</p><p>展覽希望可以透過貓咪與環境之間的互動，邀請觀者重新留意觀看的方式，以及自己與他人之間的距離。或許在尋找畫中貓咪的過程裡，我們也能重新思考，什麼樣的距離，才是讓彼此感到自在的位置。</p></div></details>
+ </div>
+</section>
+<section class="ending"><div class="section-label" style="color:#b4bfae">UNTIL WE MEET AGAIN</div><h2>你先看見了誰？</h2><p>謝謝你走進這段距離。<br>也許下一次回頭，又會看見不一樣的細節。</p><button id="backToGallery">再走一次展廊 →</button></section>
+</main><footer class="footer"><span>© 2026 WENG TZU-CHING · 翁子晴</span><span>躲貓貓：這個距離剛剛好 · ONLINE EXHIBITION</span></footer>
+<section class="detail" id="detail" role="dialog" aria-modal="true" aria-label="作品詳細資訊" tabindex="-1"><div class="detail-top"><button class="detail-back" id="detailBack">← 返回展廊</button><span class="detail-counter" id="detailCounter">01 / 23</span><button class="detail-next" id="detailTopNext">下一件 →</button></div><div class="detail-main"><div class="detail-art-zone"><img class="detail-art" id="detailImage" alt="作品照片"><button class="zoom-cta" id="detailZoom">⌕ 放大欣賞</button></div><div class="detail-info"><div class="detail-small">WORKS · 作品細節</div><h2 class="detail-title" id="detailTitle"></h2><div class="detail-en" id="detailEnglish"></div><div class="detail-rule"></div><dl class="detail-facts"><dt>創作年份</dt><dd id="detailYear"></dd><dt>媒材</dt><dd id="detailMedium"></dd><dt>尺寸</dt><dd id="detailSize"></dd></dl><section class="detail-concept" id="detailConcept" hidden aria-label="作品創作理念"><h3>創作理念 <span>ARTIST'S WORDS</span></h3><div class="detail-concept-copy" id="detailConceptText"></div></section><div class="detail-bottom"><button class="save-button" id="detailSave">♡ 收藏這件作品</button><button class="detail-next" id="detailBottomNext">下一件作品 →</button></div></div></div></section>
+<section class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="放大檢視作品"><div class="lightbox-toolbar"><span id="lightboxTitle"></span><div class="lightbox-controls"><button id="zoomOut" aria-label="縮小">－</button><button id="zoomIn" aria-label="放大">＋</button><button id="lightboxClose">關閉 ✕</button></div></div><div class="lightbox-stage" id="lightboxStage"><img class="lightbox-image" id="lightboxImage" alt="放大的畫作"></div><div class="lightbox-tip">可使用 ＋／－ 放大縮小，放大後拖曳移動</div></section>
+<script>
+const WORKS=[{"id":1,"title":"他只是經過","en":"He Was Just Passing By","year":2025,"medium":"油畫","size":"50F\n116.5 × 91 cm","image":"assets/work-01.webp","thumb":"assets/thumb-01.webp","round":false,"half":false,"physicalHeight":116.5,"ratio":0.78076,"concept":"貓咪出現在植物環繞的空間中，像是偶然經過，也像是早已在那裡觀察許久。牠並未主動靠近，卻因為視線的相遇，讓觀者意識到彼此的存在。\n通過捕捉這個瞬間，表達這種短暫而微妙的關係：兩個個體之間即使沒有真正接觸，觀看本身也可能是一種交流。"},{"id":2,"title":"誰先看見誰","en":"Who Saw Whom First?","year":2026,"medium":"油畫","size":"50F\n116.5 × 91 cm","image":"assets/work-02.webp","thumb":"assets/thumb-02.webp","round":false,"half":false,"physicalHeight":116.5,"ratio":0.78163,"concept":"在繁密的植物之間，貓咪的身影並不容易被立即發現。你可能會花了一些時間才注意到牠。到底是我們先發現牠？還是其實我們早已成為牠注視的對象？\n作品試圖模糊觀看者與被觀看者之間的界線，讓兩種角色在畫面中相互轉換。"},{"id":3,"title":"一點點的試探","en":"Testing the Waters","year":2026,"medium":"油畫","size":"30F\n91 × 72.5 cm","image":"assets/work-03.webp","thumb":"assets/thumb-03.webp","round":false,"half":false,"physicalHeight":91.0,"ratio":0.79932,"concept":"貓咪從層層葉片之間探出身影，保持著觀察與警覺。牠並沒有完全躲藏，也沒有直接走出來，而是停留在一個可以隨時進退、可以隱藏自己的位置。\n想透過這種繁雜層疊的交會，表達在關係建立之初，我們總是小心翼翼地靠近，試著確認彼此能夠接受的距離。"},{"id":4,"title":"日子裡的偶然","en":"An Ordinary Day, By Chance","year":2024,"medium":"油畫","size":"30F\n91 × 72.5 cm","image":"assets/work-04.webp","thumb":"assets/thumb-04.webp","round":false,"half":false,"physicalHeight":91.0,"ratio":0.79785,"concept":"光線穿過大樹，像是個平凡不過的下午，而貓咪的身影悄悄進入畫面，尾巴因為感到開心而高高翹起。這個不經意的出現，讓我們的日常多了一個值得停留的瞬間。"},{"id":5,"title":"你要跟上嗎？","en":"Are You Coming Along?","year":2026,"medium":"油畫","size":"80 × 40 cm","image":"assets/work-05.webp","thumb":"assets/thumb-05.webp","round":false,"half":false,"physicalHeight":80.0,"ratio":0.49951,"concept":"貓咪停留在植物之間，彷彿像一座無形的牆。\n牠好像正要準備離開，又像是在等待什麼。是在邀請我嗎？\n而當牠回望時，在這瞬間觀看不再只是單方面的行為，而是讓觀者開始思考，自己是否要跨越眼前的距離。"},{"id":6,"title":"光邊","en":"At the Edge of Light","year":2024,"medium":"油畫","size":"20F\n60.5 × 72.5 cm","image":"assets/work-06.webp","thumb":"assets/thumb-06.webp","round":false,"half":false,"physicalHeight":60.5,"ratio":1.21845,"concept":"光線在貓咪身上留下明暗交錯的痕跡。不同媒材的交織也讓原本熟悉的日常場景產生不同層次。\n這幅作品隨著觀察角度的變化，可以看到金箔在不同狀態下呈現的光影，讓觀者也能用自己的視角看到影子邊緣的流動性。"},{"id":7,"title":"在影子邊緣","en":"At the Edge of the Shadow","year":2024,"medium":"油畫","size":"20F\n60.5 × 72.5 cm","image":"assets/work-07.webp","thumb":"assets/thumb-07.webp","round":false,"half":false,"physicalHeight":60.5,"ratio":1.2205,"concept":""},{"id":8,"title":"不算正式見面","en":"Not Quite an Introduction","year":2026,"medium":"油畫","size":"15F\n65 × 53 cm","image":"assets/work-08.webp","thumb":"assets/thumb-08.webp","round":false,"half":false,"physicalHeight":65.0,"ratio":0.81127,"concept":"植物的影子隨著光線交錯，貓咪在畫面中若隱若現，是要探頭？還是逃走？為下一瞬間保留了無限想像。\n人與人的初見就像這隻貓，帶點警惕、帶點巧遇，就算是平凡的角落，也多了可以細細觀察與品味的地方。"},{"id":9,"title":"半夢半醒間","en":"Between Sleep and Wakefulness","year":2024,"medium":"油畫","size":"60 × 60 cm","image":"assets/work-09.webp","thumb":"assets/thumb-09.webp","round":true,"half":false,"physicalHeight":60.0,"ratio":0.9917,"concept":"畫面以圓形構圖呈現，植物、光線與貓咪交織出介於真實與想像之間的空間。\n箔材隨觀看角度產生的反射，使畫面呈現不同的光澤與層次，如同意識在清醒與夢境之間游移，熟悉的景象也因此多了一點不確定性。"},{"id":10,"title":"一葉之間","en":"Between the Leaves","year":2026,"medium":"油畫","size":"8M\n27 × 45.5 cm","image":"assets/work-10.webp","thumb":"assets/thumb-10.webp","round":false,"half":false,"physicalHeight":27.0,"ratio":1.72246,"concept":""},{"id":11,"title":"偶然間的相遇","en":"A Chance Encounter","year":2025,"medium":"油畫","size":"20 × 40 cm","image":"assets/work-11.webp","thumb":"assets/thumb-11.webp","round":false,"half":true,"physicalHeight":20.0,"ratio":1.83021,"concept":""},{"id":12,"title":"視線的邊緣","en":"At the Edge of Sight","year":2024,"medium":"油畫","size":"30 × 30 cm","image":"assets/work-12.webp","thumb":"assets/thumb-12.webp","round":true,"half":false,"physicalHeight":30.0,"ratio":1.0,"concept":""},{"id":13,"title":"大腦當機中","en":"Brain Offline","year":2025,"medium":"油畫","size":"20 × 20 cm","image":"assets/work-13.webp","thumb":"assets/thumb-13.webp","round":false,"half":false,"physicalHeight":20.0,"ratio":1.0,"concept":""},{"id":14,"title":"這是通知，不是商量","en":"This Is a Notice, Not a Negotiation","year":2025,"medium":"油畫","size":"20 × 20 cm","image":"assets/work-14.webp","thumb":"assets/thumb-14.webp","round":false,"half":false,"physicalHeight":20.0,"ratio":1.0,"concept":""},{"id":15,"title":"我哭給你看喔","en":"I Might Just Cry","year":2025,"medium":"油畫","size":"20 × 20 cm","image":"assets/work-15.webp","thumb":"assets/thumb-15.webp","round":false,"half":false,"physicalHeight":20.0,"ratio":1.0,"concept":""},{"id":16,"title":"喵賽克","en":"Meow-saic","year":2025,"medium":"油畫","size":"20 × 20 cm","image":"assets/work-16.webp","thumb":"assets/thumb-16.webp","round":false,"half":false,"physicalHeight":20.0,"ratio":1.0,"concept":""},{"id":17,"title":"你從哪裡來？","en":"Where Did You Come From?","year":2026,"medium":"油畫","size":"15 × 15 cm","image":"assets/work-17.webp","thumb":"assets/thumb-17.webp","round":false,"half":false,"physicalHeight":15.0,"ratio":1.0,"concept":""},{"id":18,"title":"自己的小角落","en":"A Little Corner of My Own","year":2026,"medium":"油畫","size":"15 × 15 cm","image":"assets/work-18.webp","thumb":"assets/thumb-18.webp","round":false,"half":false,"physicalHeight":15.0,"ratio":1.01266,"concept":""},{"id":19,"title":"眼不見為安","en":"Out of Sight, Out of Mind","year":2026,"medium":"油畫","size":"10 × 10 cm","image":"assets/work-19.webp","thumb":"assets/thumb-19.webp","round":false,"half":false,"physicalHeight":10.0,"ratio":1.0,"concept":""},{"id":20,"title":"半信半疑","en":"Not Quite Convinced","year":2026,"medium":"油畫","size":"10 × 10 cm","image":"assets/work-20.webp","thumb":"assets/thumb-20.webp","round":false,"half":false,"physicalHeight":10.0,"ratio":1.0,"concept":""},{"id":21,"title":"大風大浪，咪不在乎","en":"","year":2024,"medium":"油畫","size":"72.5 × 53  cm","image":"assets/work-21.webp","thumb":"assets/thumb-21.webp","round":false,"half":false,"physicalHeight":53.0,"ratio":1.37542,"concept":""},{"id":22,"title":"全世界跟我","en":"","year":2024,"medium":"油畫","size":"60 × 60 cm","image":"assets/work-22.webp","thumb":"assets/thumb-22.webp","round":true,"half":false,"physicalHeight":60.0,"ratio":1.01629,"concept":""},{"id":23,"title":"我給你的全世界","en":"","year":2024,"medium":"油畫","size":"60 × 60 cm","image":"assets/work-23.webp","thumb":"assets/thumb-23.webp","round":true,"half":false,"physicalHeight":60.0,"ratio":1.01629,"concept":""}];
+const $=(id)=>document.getElementById(id);
+const gallery=$('galleryTrack'), indexGrid=$('indexGrid');
+let activeIndex=0, filter='all', lastFocus=null, zoomScale=1,zoomX=0,zoomY=0;
+let saved;
+try{saved=new Set(JSON.parse(localStorage.getItem('hide-seek-favorites-23')||'[]'));}catch(e){saved=new Set()}
+const pad=n=>String(n).padStart(2,'0');
+function goTo(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'})}
+$('navGallery').onclick=$('heroEnter').onclick=$('backToGallery').onclick=()=>goTo('gallery');
+$('navIndex').onclick=()=>goTo('index');
+$('heroImage').src=WORKS[0].image;
+function makeWall(){
+ const cols=[];
+ for(let i=0;i<WORKS.length;i+=2){
+  const pieces=WORKS.slice(i,i+2).map((w,k)=>{
+   const j=i+k;
+   // Smaller originals remain visually smaller, but no longer shrink to tiny thumbnails.
+   const height=Math.round(Math.min(242,Math.max(162,136+w.physicalHeight*.91)));
+   const mobileHeight=Math.round(Math.min(178,Math.max(130,123+w.physicalHeight*.48)));
+   const unframed=w.round||w.half||w.id===5;
+   return `<div class="wall-piece ${w.round?'round':''} ${w.half?'half':''} ${w.id===5?'special-shape':''}" style="--desktop-height:${height}px;--mobile-height:${mobileHeight}px;--ratio:${w.ratio}" data-i="${j}"><button class="artwork-button" data-open="${j}" aria-label="查看《${w.title}》的作品資訊"><span class="art-frame"><img src="${w.image}" alt="${w.title}" draggable="false" loading="${j<4?'eager':'lazy'}" decoding="async"></span></button><div class="wall-label"><span>NO. ${pad(w.id)}</span><strong>${w.title}</strong></div></div>`;
+  }).join('');
+  cols.push(`<div class="wall-column" data-first="${i}">${pieces}</div>`);
+ }
+ gallery.innerHTML=cols.join('');
+}
+function renderIndex(){
+ const visible=WORKS.map((w,i)=>({...w,i})).filter(w=>filter==='all'||saved.has(w.id));
+ $('indexCount').textContent=`${visible.length} WORK${visible.length===1?'':'S'} ON VIEW`;
+ $('favCount').textContent=saved.size?`(${saved.size})`:'';
+ indexGrid.innerHTML=visible.length?visible.map(w=>`<button class="index-card" data-open="${w.i}" aria-label="查看《${w.title}》"><span class="index-image"><img src="${w.thumb}" loading="lazy" alt="${w.title}" class="${(w.round||w.half||w.id===5)?'shape-image':''}"></span><div class="index-no">NO. ${pad(w.id)} ${saved.has(w.id)?'· ♥':''}</div><div class="index-name">${w.title}</div><div class="index-meta">${w.year} · 油畫</div></button>`).join(''):`<div class="empty-favs">還沒有收藏作品。<br>點開喜歡的畫，按下「收藏這件作品」，就能在這裡找到它。</div>`;
+}
+$('filterAll').onclick=()=>setFilter('all');$('filterSaved').onclick=()=>setFilter('saved');
+function setFilter(v){filter=v;$('filterAll').classList.toggle('active',v==='all');$('filterSaved').classList.toggle('active',v==='saved');renderIndex()}
+
+function openDetail(i,keepFocus=false){
+ if(!keepFocus)lastFocus=document.activeElement;
+ activeIndex=(i+WORKS.length)%WORKS.length;
+ const w=WORKS[activeIndex];
+ $('detailImage').src=w.image;$('detailImage').alt=w.title;$('detailImage').classList.toggle('shape-image',w.round||w.half||w.id===5);
+ $('detailTitle').textContent=w.title;$('detailEnglish').textContent=w.en;
+ $('detailYear').textContent=w.year;$('detailMedium').textContent=w.medium;$('detailSize').textContent=w.size;
+ $('detailCounter').textContent=`${pad(activeIndex+1)} / ${pad(WORKS.length)}`;
+ $('detailSave').classList.toggle('saved',saved.has(w.id));$('detailSave').textContent=saved.has(w.id)?'♥ 已收藏 · 點擊取消':'♡ 收藏這件作品';
+ $('detailConcept').hidden=!w.concept; $('detailConceptText').textContent=w.concept||'';$('detail').classList.add('open');$('detail').scrollTop=0;document.body.style.overflow='hidden';$('detailBack').focus({preventScroll:true});
+ try{history.replaceState(null,'',`#work-${pad(w.id)}`)}catch(e){}
+}
+function closeDetail(){if($('lightbox').classList.contains('open'))closeLightbox();$('detail').classList.remove('open');document.body.style.overflow='';try{history.replaceState(null,'','#gallery')}catch(e){};if(lastFocus&&lastFocus.focus)lastFocus.focus({preventScroll:true})}
+$('detailBack').onclick=closeDetail;
+$('detailTopNext').onclick=$('detailBottomNext').onclick=()=>openDetail(activeIndex+1,true);
+$('detailSave').onclick=()=>{const id=WORKS[activeIndex].id;saved.has(id)?saved.delete(id):saved.add(id);try{localStorage.setItem('hide-seek-favorites-23',JSON.stringify([...saved]))}catch(e){};$('detailSave').classList.toggle('saved',saved.has(id));$('detailSave').textContent=saved.has(id)?'♥ 已收藏 · 點擊取消':'♡ 收藏這件作品';renderIndex()};
+document.addEventListener('click',e=>{const target=e.target.closest('[data-open]');if(target&&!gallery.classList.contains('dragging'))openDetail(Number(target.dataset.open))});
+function openLightbox(){const w=WORKS[activeIndex];$('lightboxImage').src=w.image;$('lightboxImage').classList.toggle('shape-image',w.round||w.half||w.id===5);$('lightboxTitle').textContent=w.title;zoomScale=1;zoomX=0;zoomY=0;applyZoom();$('lightbox').classList.add('open');$('lightboxClose').focus()}
+function closeLightbox(){$('lightbox').classList.remove('open');$('detailZoom').focus()}
+$('detailZoom').onclick=openLightbox;$('lightboxClose').onclick=closeLightbox;
+function applyZoom(){$('lightboxImage').style.transform=`translate(${zoomX}px,${zoomY}px) scale(${zoomScale})`}
+$('zoomIn').onclick=()=>{zoomScale=Math.min(4,zoomScale+.35);applyZoom()};$('zoomOut').onclick=()=>{zoomScale=Math.max(1,zoomScale-.35);if(zoomScale===1){zoomX=0;zoomY=0}applyZoom()};
+const stage=$('lightboxStage');let pan=null;
+stage.addEventListener('pointerdown',e=>{if(zoomScale===1)return;pan={x:e.clientX,y:e.clientY,ox:zoomX,oy:zoomY};stage.setPointerCapture(e.pointerId)});
+stage.addEventListener('pointermove',e=>{if(!pan)return;zoomX=pan.ox+e.clientX-pan.x;zoomY=pan.oy+e.clientY-pan.y;applyZoom()});
+stage.addEventListener('pointerup',()=>pan=null);stage.addEventListener('pointercancel',()=>pan=null);
+stage.addEventListener('wheel',e=>{e.preventDefault();zoomScale=Math.max(1,Math.min(4,zoomScale+(e.deltaY<0?.18:-.18)));if(zoomScale===1){zoomX=0;zoomY=0}applyZoom()},{passive:false});
+// Horizontal museum walk: native mobile swipe, mouse drag and accessible arrow controls.
+let drag=null,suppressClick=false;
+gallery.addEventListener('pointerdown',e=>{if(e.pointerType==='touch')return;drag={startX:e.clientX,scroll:gallery.scrollLeft,moved:false}});
+gallery.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.startX;if(Math.abs(dx)>7){if(!drag.moved){drag.moved=true;try{gallery.setPointerCapture(e.pointerId)}catch(err){}}gallery.classList.add('dragging');gallery.scrollLeft=drag.scroll-dx}});
+gallery.addEventListener('pointerup',()=>{if(drag&&drag.moved){suppressClick=true;setTimeout(()=>suppressClick=false,0)}drag=null;gallery.classList.remove('dragging')});
+gallery.addEventListener('pointercancel',()=>{drag=null;gallery.classList.remove('dragging')});
+gallery.addEventListener('click',e=>{if(suppressClick){e.stopPropagation();e.preventDefault()}},true);
+function nearestIndex(){const mid=gallery.getBoundingClientRect().left+Math.min(190,gallery.clientWidth*.34);let nearest=0,dist=Infinity;[...gallery.children].forEach(el=>{const r=el.getBoundingClientRect();const d=Math.abs(r.left+r.width/2-mid);if(d<dist){dist=d;nearest=Number(el.dataset.first)}});return nearest}
+function updateProgress(){const i=nearestIndex();$('galleryCurrent').textContent=pad(i+1);const max=Math.max(1,gallery.scrollWidth-gallery.clientWidth);$('galleryProgress').style.width=`${Math.max(0,Math.min(100,(gallery.scrollLeft/max)*100))}%`}
+gallery.addEventListener('scroll',()=>requestAnimationFrame(updateProgress),{passive:true});
+function scrollToWork(i){const index=Math.max(0,Math.min(WORKS.length-1,i));const piece=gallery.querySelector(`[data-i="${index}"]`);const el=piece&&piece.closest('.wall-column');if(!el)return;const target=el.offsetLeft+el.offsetWidth/2-gallery.clientWidth*.38;gallery.scrollTo({left:target,behavior:'smooth'})}
+$('galleryPrev').onclick=()=>scrollToWork(nearestIndex()-2);$('galleryNext').onclick=()=>scrollToWork(nearestIndex()+2);
+gallery.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();scrollToWork(nearestIndex()+2)}if(e.key==='ArrowLeft'){e.preventDefault();scrollToWork(nearestIndex()-2)}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('lightbox').classList.contains('open'))closeLightbox();else if($('detail').classList.contains('open'))closeDetail()}else if($('detail').classList.contains('open')&&!$('lightbox').classList.contains('open')&&e.key==='ArrowRight'){openDetail(activeIndex+1,true)}else if($('detail').classList.contains('open')&&!$('lightbox').classList.contains('open')&&e.key==='ArrowLeft'){openDetail(activeIndex-1,true)}});
+makeWall();renderIndex();updateProgress();
+if(/^#work-\d+$/.test(location.hash)){const id=Number(location.hash.slice(6));const i=WORKS.findIndex(w=>w.id===id);if(i>=0)openDetail(i)}
+</script>
+</body></html>
